@@ -20,6 +20,7 @@ img{
 .header{
     position: absolute;
     left: 150px;
+    top: 0;
     height: 50px;
     width: calc(100% - 150px);
     /* debug    */
@@ -57,3 +58,33 @@ img{
     border: 2px solid black;
      background-color: aqua;
 } 
+
+@media screen and (max-width: 768px){
+    
+
+}
+
+@media screen and (max-width: 425px){
+    
+    
+}
+
+@media screen and (max-width: 320px){
+    
+    .navbar{
+        width: 50px;   
+    }
+
+    .main{
+        width: calc(100% - 50px);
+    }
+
+    .header{
+        position: absolute;
+        left: 50px;
+        top: 0;
+        height: 50px;
+        width: calc(100% - 50px);
+    }
+    
+}
