@@ -9,12 +9,37 @@ img{
     width: 100%;
 }
 
+.main{
+    background-color: #080B12;
+}
+
+#nav-items-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    gap: 30px;
+
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+   /* LAYOUT */
 .wrapper{
     width: 100%;
     height: calc(100vh - 70px);  
     /* debug */
     border: 5px solid red;
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .header{
