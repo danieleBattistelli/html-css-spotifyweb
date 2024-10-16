@@ -10,8 +10,27 @@ Consigli
 3. Scegliete voi questa volta se lavorare con approccio desktop first oppure mobile first
 Buon Lavoro!
 
+Recap di punti chiave per oggi:
+dalle 11:15 e fino alle 13:00 sono qui per i vostri ticket
+assicuratevi che il vostro layout funziona bene, aggiungendo anche dei contenuti lunghi per vedere lo scroll
+se il punto precedente è ok (ANCHE IN RESPONSIVE), potete procedere all'implementazione di dettagli della navbar e del contenuto principale
+tra poco vi invio i nomi di icone
+lo screen spotify-height-350 è super bonus :stella2:
+domani ci vediamo al solito orario in aula
+oggi pomeriggio vi condividiamo il foglio google per i feedback individuali di venerdì :muscolo:
+Buon lavoro!
 
-
+Le icone usate sono:
+fa-play-circle
+fa-heart
+fa-heart
+fa-random
+fa-step-backward
+fas fa-step-forward
+fa-redo-alt
+fa-list-ul
+fa-desktop
+fa-volume-up
 
 
 
