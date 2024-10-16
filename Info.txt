@@ -26,3 +26,36 @@ li*5>a =>lista di 5 elementi ancor tag
 
 100vw non tiene conto della barra laterale e quindi occupa piu del 100% della larghezza quindi usare il 100%
 
+
+
+bottone upgrade
+ class button  upgrade b 
+padding inline block
+
+
+section Recenly played
+col*6 con row
+padding 70px 20 30
+
+su media 1024 col{100%/4}
+
+su media 768 col {100%/2}
+
+usare
+--cols-number
+
+
+footer: dividere il footer in 3 blocchi space beetween (centro destra e sinistra)
+sidebar: dividere in 2 parti (column e space between) cosi abbiamo parte alta e parta bassa
+
+per il tratto verde si ossere border sulla sidebar
+
+pseudo elemento per nav items
+
+
+sulle canzoni overlay per il simbolo play
+
+usare trasform per ingrandire effettua upgrade e il tasto play
+
+
+
