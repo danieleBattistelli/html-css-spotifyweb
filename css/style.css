@@ -1,91 +1,101 @@
 /* CUSTOM PRPERTIES */
 
-/* :root{
-    --footer-height:70px;
-    --sidebar-with:250px;
-} */
+:root {
+    --footer-height: 70px;
+    --sidebar-with: 300px;
+
+}
 
 
 /* RESET */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
 
-img{
+img {
     width: 100%;
 }
 
-li{
+li {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
     padding: 10px;
-    color:inherit;
+    color: inherit;
 }
 
 /* COMMON */
-   /* LAYOUT */
-   .wrapper{
+/* LAYOUT */
+.wrapper {
     width: 100%;
-    height: calc(100vh - var(--footer-height));
+    height: calc(100vh - 100px);
     /* debug */
     /* border: 5px solid red; */
     /* background-color: blue; */
 }
 
-.header{
+.header {
     position: absolute;
-    left: 150px;
+    /*left: 150px;
     top: 0;
     z-index: -1;
     height: 50px;
-    width: calc(100% - 150px);
+    width: calc(100% - 300px); */
     /* debug    */
-    border: 2px solid white;
-    background-color: rgba(0, 0, 0);
+    border: 2px solid blue;
+    background-color: yellow; 
 }
 
-.sidebar{
-    width: 150px;
+.sidebar {
+    width: 300px;
+    /* width: var(--sidebar-with); */
     padding: 20px;
     overflow: auto;
     height: calc(100vh - 70px);
     color: white;
     /* debug */
-    background-color:black;
+    background-color: black;
     border: 2px solid white;
 }
 
-.main{
-    position: absolute;
-    right: 0;
-    bottom: 70px;
-    overflow: auto;
-    width: calc(100% - 150px);
-    height: calc(100vh - 120px);
+.sidebar-down {
+    height: 150px;
+    width: 150px;
     /* debug */
     /* border: 2px solid white; */
-    background-color: #080B12;
+}
+
+.main {
+    position: absolute;
+    right: 0;
+    top: 0;
+    overflow: auto;
+    width: calc(100% - 300px);
+    height: calc(100vh - 100px);
+    /* debug */
+    /* border: 2px solid white; */
+    background-color: black;
     color: white;
 }
 
 /* FOOTER */
 .footer {
     padding: 20px;
-    height: 70px;
+    height: 100px;
     /* height: var(footer-height); */
     /* debug    */
     border: 2px solid white;
     background-color: black;
 }
+
 /* MAIN */
 /* nav-bar */
-#nav-bar-list{
+#nav-bar-list {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -96,19 +106,20 @@ a{
 
 /* section-recently-played */
 
-h2{
+h2 {
     padding: 40px 30px 0;
 }
-.row{
+
+.row {
     display: flex;
-    justify-content:flex-start;
+    justify-content: flex-start;
     flex-wrap: wrap;
     padding: 30px 0px 100px 30px;
     gap: 20px;
 
 }
 
-.col{
+.col {
     width: 200px;
     height: 200px;
     /* debug */
@@ -118,52 +129,97 @@ h2{
 
 }
 
-p{
+p {
     padding-top: 10px;
     padding-left: 30px;
     color: #7D7F84;
     font-size: small;
+
 }
 
 /* section-create-for-you*/
 
-h4{
+h4 {
     padding-top: 15px;
 }
 
 /* section-popular-artist*/
 
-#circle-popular-artist{
+#circle-popular-artist {
     border-radius: 50%;
     color: black;
 }
+
+/* Sidebar*/
+
+.sidebar-up {
+    width: 150px
+    /* debug */
+    /* border: 2px solid white; */
+}
+
+.row-sidebar {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 13rem;
+
+}
+
+#sidebar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+#logo {
+    width: 50%;
+}
+
+span{
+    color: #7D7F84;
+    font-size: small;
+}
+
+#plus{
+ font-size: x-large;
+}
+
+#playlist{
+    font-size: x-small;
+    color: white;
+    padding-bottom: -5px;
+}
+
+.sidebar-down-list{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
 
 /*************************
 media query
 /**************************/
 
-@media screen and (max-width: 1024px){
-   
+@media screen and (max-width: 1024px) {}
 
+@media screen and (max-width: 768px) {}
 
-}
+@media screen and (max-width: 425px) {
 
-@media screen and (max-width: 768px){
-
-
-}
-
-@media screen and (max-width: 425px){
-
-    .sidebar{
+    .sidebar {
         width: 50px;
     }
 
-    .main{
+    .main {
         width: calc(100% - 50px);
     }
 
-    .header{
+    .header {
         position: absolute;
         left: 50px;
         top: 0;
