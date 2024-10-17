@@ -23,7 +23,6 @@ Buon lavoro!
 Le icone usate sono:
 fa-play-circle
 fa-heart
-fa-heart
 fa-random
 fa-step-backward
 fas fa-step-forward
