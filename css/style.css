@@ -113,7 +113,7 @@ a {
 .footer-center {
     width: 450px;
     /*debug*/
-    border: 2px solid white;
+    /* border: 2px solid white; */
     /* background-color: green; */
 }
 
@@ -242,6 +242,7 @@ h4 {
 
 #home {
     height: 40px;
+    padding: 2px;
 
 }
 
@@ -282,8 +283,6 @@ span {
    display: inline-block;
 }
 
-
-
 #dwn {
     height: 30px;
 }
@@ -299,11 +298,6 @@ span {
     padding-top: 5px;
 }
 
-
-
-
-
-
 /* FOOTER */
 .footer-left {
     display: flex;
@@ -318,6 +312,38 @@ span {
     padding-right: 10px;
 }
 
+.footer-center{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-center-up{
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    /* debug */
+    border: 2px sold white;
+}
+
+.footer-center-down{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* debug */
+    border: 2px sold white;
+}
+
+.line-start{
+    width: 100px;
+    border-bottom: 1px solid white;
+}
+
+.line-end{
+   width: 300px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.411);
+}
 
 
 /* Utilities */
@@ -327,6 +353,18 @@ span {
 
 .m-bottom-10 {
     margin-bottom: 10px;
+}
+
+.m-right-10{
+    margin-right: 10px;
+}
+
+.m-left-10{
+    margin-left:10px ;
+}
+
+.green-line{
+    border: 2px solid greenyellow;
 }
 
 
