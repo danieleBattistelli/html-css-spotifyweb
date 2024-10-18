@@ -1,24 +1,4 @@
-Ciao Ragazzi,
-esercizio di oggi:
-nome repo: html-css-spotifyweb
-Eccoci arrivati a Spotify Web, la nostra prima web app!
-Il layout di questo esercizio è diverso da quelli che abbiamo riprodotto fino ad ora: il contenuto della pagina non potrà mai uscire dalla viewport, proprio come una app!
-In allegato troverete le screenshot per vedere il layout anche nelle versioni responsive, inoltre troverete dei video per quel che riguarda il comportamento hover, responsive e chiusura del browser in altezza.
-Consigli
-1. Questo esercizio si svolgerà in più giorni quindi come sempre pensate prima a far funzionare le macroaree, se quelle funzionano allora passate al dettaglio.
-2. Potete utilizzare le regole che abbiamo visto fin ad ora. Ok, ma come fate a scegliere la soluzione giusta? A volte vi sembrerà subito evidente, altre volte potreste complicarvi la vita. Se vedete che una strada non vi sta portando nel posto giusto... potete cambiarla!
-3. Scegliete voi questa volta se lavorare con approccio desktop first oppure mobile first
-Buon Lavoro!
 
-Recap di punti chiave per oggi:
-dalle 11:15 e fino alle 13:00 sono qui per i vostri ticket
-assicuratevi che il vostro layout funziona bene, aggiungendo anche dei contenuti lunghi per vedere lo scroll
-se il punto precedente è ok (ANCHE IN RESPONSIVE), potete procedere all'implementazione di dettagli della navbar e del contenuto principale
-tra poco vi invio i nomi di icone
-lo screen spotify-height-350 è super bonus :stella2:
-domani ci vediamo al solito orario in aula
-oggi pomeriggio vi condividiamo il foglio google per i feedback individuali di venerdì :muscolo:
-Buon lavoro!
 
 Le icone usate sono:
 fa-play-circle
@@ -34,7 +14,9 @@ fa-volume-up
 
 
 NB
-un img posso settarla altezza e larghezza al 100% se se il genitore ha altezza e larghezza fissa
+un img posso settarla altezza e larghezza al 100% 
+se se il genitore ha altezza 
+e larghezza fissa
 
 
 li*5>a =>lista di 5 elementi ancor tag
@@ -42,7 +24,9 @@ li*5>a =>lista di 5 elementi ancor tag
 
 100vh occupa il 100% del viewport
 
-100vw non tiene conto della barra laterale e quindi occupa piu del 100% della larghezza quindi usare il 100%
+100vw non tiene conto della barra laterale e quindi 
+occupa piu del 100% della 
+larghezza quindi usare il 100%
 
 
 
@@ -50,21 +34,10 @@ bottone upgrade
  class button  upgrade b 
 padding inline block
 
-
-section Recenly played
-col*6 con row
-padding 70px 20 30
-
-su media 1024 col{100%/4}
-
-su media 768 col {100%/2}
-
 usare
 --cols-number
 
 
-footer: dividere il footer in 3 blocchi space beetween (centro destra e sinistra)
-sidebar: dividere in 2 parti (column e space between) cosi abbiamo parte alta e parta bassa
 
 per il tratto verde si ossere border sulla sidebar
 
@@ -73,7 +46,33 @@ pseudo elemento per nav items
 
 sulle canzoni overlay per il simbolo play
 
-usare trasform per ingrandire effettua upgrade e il tasto play
+usare trasform per ingrandire effettua 
+upgrade e il tasto play
+
+
+Guardare su w3 school le proprieta di trasform
+div .:hover{
+
+trasform:scale(4)} per ingrandire  elemento
+
+per le playlist inserire un div 
+per l'immagine ed un per il titolo e 
+per lo sfondo usare 
+la trasparenza
+
+
+text transform uppercase => per mettere tutto maiuscolo
+
+
+
+per realizzare un overlay (la trasparenza) usare un 
+div la stessa grandezza 
+della card e colore 0.0.0 0.6 devi creare un 
+div che contiene un div dell'immagine 
+e un div per l'overlay
+
+
+
 
 
 
